@@ -1,15 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 253, 242);
+}
+h1 {
+  font-size: 40px;
+  color: black;
+}
+.btn,
+.rainbow,
+.btn2 {
+  background-color: rgb(117, 255, 96);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
 .container {
   display: flex;
+  border: 2px black solid;
   width: 400px;
-  background-color: gold;
+  height: 400px;
   flex-wrap: wrap;
+  overflow: hidden;
+  margin: 50px;
 }
+
 .col-grid {
-  width: 25px;
-  height: 25px;
-  border: 1px black solid;
+  border: 1px red solid;
   box-sizing: border-box;
 }
-.col-grid:hover {
+/* .col-grid:hover {
   background-color: black;
-}
+} */
