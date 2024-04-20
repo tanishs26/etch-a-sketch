@@ -10,6 +10,8 @@ function createGrid(row, colm) {
       const colGrid = document.createElement("div");
       colGrid.classList.add("col-grid");
       colGrid.textContent=``
+
+      
       rowGrid.appendChild(colGrid);
     }
   }

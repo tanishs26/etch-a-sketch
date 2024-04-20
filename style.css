@@ -1,15 +1,15 @@
 .container {
-    display: flex;
-    width: 400px;
-    background-color: gold;
-    flex-wrap: wrap;
-  }
-  .col-grid {
-    width: 25px;
-    height: 25px;
-    border: 1px black solid;
-    box-sizing: border-box;
-  }
-  .col-grid:hover{
-    background-color: black;
-  }
+  display: flex;
+  width: 400px;
+  background-color: gold;
+  flex-wrap: wrap;
+}
+.col-grid {
+  width: 25px;
+  height: 25px;
+  border: 1px black solid;
+  box-sizing: border-box;
+}
+.col-grid:hover {
+  background-color: black;
+}
